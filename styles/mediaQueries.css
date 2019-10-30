@@ -1,0 +1,43 @@
+
+@media (max-width: 1040px) {
+    .nav {
+        width: 60%;
+    }
+}
+
+@media (max-width: 870px) {
+    .strategy {
+        flex-wrap: wrap;
+    }
+
+    .strategy__item {
+        width: 50%;
+    }
+
+    .footer__social-networks {
+        width: 30%;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .main-top {
+        display: block;
+    }
+
+    .main-top__img-box {
+        width: 100%;
+    }
+
+    .main-top__content {
+        width: 100%;
+    }
+}
+
